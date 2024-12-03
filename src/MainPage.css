@@ -1,0 +1,36 @@
+/* src/MainPage.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 50px; /* Increased gap between grid items */
+    margin-top: 20px; /* Space above the grid */
+    position: relative; /* Required for styling */
+    padding: 40px; /* Add padding to the container */
+    border: 2px solid white; /* Create a white border around the buttons */
+    border-radius: 10px; /* Optional: Round the corners */
+  }
+  
+  /* Style for grid items */
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circular-button {
+    width: 100px; /* Width of the circular button */
+    height: 100px; /* Height of the circular button */
+    border: none;
+    border-radius: 50%; /* Make it circular */
+    background-color: #0D3B66; /* Button background color */
+    color: white; /* Button text color */
+    font-size: 14px; /* Button text size */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+    z-index: 1; /* Ensure the button is above the border */
+  }
+  
+  .circular-button:hover {
+    background-color: #1B6B8A; /* Change color on hover */
+  }
+  

@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* index.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0A2540;  /* Dark blue background for the whole page */
+  color: white; /* Ensure text is white for contrast */
+  font-family: Arial, sans-serif; /* Optional, for better typography */
+}
+
+#root {
+  min-height: 100vh;  /* Ensure the root element takes full viewport height */
+}
